@@ -6,4 +6,4 @@ cd project_name
 npm start
 
 
-Netlify link :  https://clever-sprite-f0d971.netlify.app/
+Netlify link :  https://timely-fenglisu-827358.netlify.app/
