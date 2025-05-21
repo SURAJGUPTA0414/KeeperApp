@@ -8,9 +8,14 @@ import CreateArea from "./Components/CreateArea";
 function App() {
   let [notes, setNotes] = useState([]);
 
+
   function onClickHandler(inputText) {
+    if (inputText.title.trim() === "" && inputText.content.trim() === "") {
+      return; // Do not add empty notes
+    }
     setNotes([...notes, inputText]);
   }
+
 
   function deleteNote(id) {
     setNotes((prevValue) => {
