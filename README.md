@@ -6,4 +6,4 @@ cd project_name
 npm start
 
 
-Netlify link :  https://timely-fenglisu-827358.netlify.app/
+Netlify link :  https://endearing-bavarois-ddf222.netlify.app/
