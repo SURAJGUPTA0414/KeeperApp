@@ -11,7 +11,8 @@ function App() {
 
   function onClickHandler(inputText) {
     if (inputText.title.trim() === "" && inputText.content.trim() === "") {
-      return; // Do not add empty notes
+        alert("bhai kuch to input dal....");
+     return;
     }
     setNotes([...notes, inputText]);
   }
